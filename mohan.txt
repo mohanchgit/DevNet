@@ -1,0 +1,184 @@
+welcome to mohan - devnet
+welcome to Devnet
+i am in feature branch 
+    1  ls
+    2  curl http://0.0.0.0:8080
+    3  cd labs/
+    4  ls
+    5  cd devnet-src/
+    6  ls
+    7  cd sample-app/
+    8  ls
+    9  touch user-input.sh
+   10  ls
+   11  nano user-input.sh 
+   12  pip3 install flask
+   13  nano user-input.sh 
+   14  sh user-input.sh 
+   15  bash user-input.sh 
+   16  ls -l user-input.sh 
+   17  chmod a+x user-input.sh 
+   18  ls -l user-input.sh 
+   19  mv  user-input.sh user-input 
+   20  ./user-input
+   21  vim
+   22  vim s.py
+   23  python3 s.py
+   24  vim s.py
+   25  python3 s.py
+   26  cat templates/index.html 
+   27  cat static/style.css 
+   28  vim s.py
+   29  python3 s.py
+   30  pwd
+   31  ls
+   32  cd Desktop/
+   33  ls
+   34  ls -l
+   35  ls -lr
+   36  ls -a
+   37  cat >> a1.txt
+   38  cat a1.txt
+   39  cp a1.txt a2.txt
+   40  ls
+   41  ls -l
+   42  mkdir dec2020
+   43  ls
+   44  cd dec2020/
+   45  pwd
+   46  cat >> a3.txt
+   47  cat a3.txt 
+   48  cd ..
+   49  sudo apt-get update
+   50  python
+   51  python3
+   52  ls
+   53  cd Desktop/
+   54  ls
+   55  cd Mohan/
+   56  ls
+   57  python hello.py 
+   58  python3 hello.py 
+   59  cat >> a3.txt
+   60  cat a3.txt
+   61  python3
+   62  clear
+   63  python3
+   64  ls
+   65  cd labs/
+   66  ls
+   67  cd devnet-src/
+   68  ls
+   69  cd python/
+   70  ls
+   71  python3 hello.py 
+   72  nano hello.py 
+   73  cat devices.txt devices.txt  devices.txt devices.txt 
+   74  man cat
+   75  clear
+   76  cat devices.txt "hello"
+   77  cat devices.txt hello.py
+   78  cat "hai"+ devices.txt 
+   79  python3
+   80  clear
+   81  python3
+   82  clear
+   83  date
+   84  clear
+   85  git config --global user.name "mohanchgit"
+   86  git config --global user.email "mail2mohan.ch@gmail.com"
+   87  git config --list
+   88  cd labs
+   89  cd devnet-src/
+   90  ls
+   91  mkdir git-local
+   92  ls
+   93  cd git-local/
+   94  git init
+   95  ls
+   96  ls -a
+   97  git status
+   98  echo "welcome to mohan - devnet" > mohan.txt
+   99  git status
+  100  ls ila
+  101  ls -la
+  102  git add mohan.txt
+  103  git status
+  104  git commit -m "fist commit"
+  105  git status
+  106  git log
+  107  echo "welcome to Devnet" >> mohan.txt
+  108  git status
+  109  log
+  110  git log
+  111  git add mohan.txt
+  112  git commit -m "second  commit"
+  113  git log
+  114  git branch feature
+  115  git branch 
+  116  git checkout feature 
+  117  git branch 
+  118  git branch dev
+  119  git branch 
+  120  echo "i am in feature branch " >> mohan.txt
+  121  git status
+  122  git add mohan.txt
+  123  git status
+  124  git commit -m "3rd commit in feature branch"
+  125  git log
+  126  git chechout master
+  127  git checkout master
+  128  git branch
+  129  git log
+  130  git branch
+  131  git merge feature 
+  132  git log
+  133  git branch 
+  134  git branch -d dec
+  135  git branch -d dev
+  136  git branch 
+  137  git log
+  138  mkdir DevNet
+  139  cd DevNet/
+  140  git init
+  141  ls -a
+  142  cp ../mohan.txt
+  143  ls
+  144  cp ../mohan.txt .
+  145  ls
+  146  cat mohan.txt
+  147  git config --list
+  148  ls
+  149  git remote add origin https://github.com/mohanchgit/DevNet.git
+  150  git remote --verbose
+  151  git log
+  152  ls
+  153  git add mohan.txt 
+  154  git log
+  155  git commit
+  156  git commit -m "mohan global"
+  157  git log
+  158  git status
+  159  git push origin master 
+  160  git log
+  161  git push origin master 
+  162  git pull https://github.com/mohanchgit/DevNet.git
+  163  ls
+  164  cat > mohan.py
+  165  git push origin master 
+  166  ls
+  167  git add mohan.py 
+  168  git commit -m "hello"
+  169  git push origin master 
+  170  git pull https://github.com/mohanchgit/DevNet.git
+  171  ls
+  172  cat aws.txt
+  173  clear
+  174  git pull https://github.com/mohanchgit/xv6.git
+  175  ls
+  176  git pull https://github.com/mohanchgit/xv6.git
+  177  ls
+  178  cd DevNet/
+  179  ls
+  180  cat mohan.txt
+  181  history >> mohan.txt 
