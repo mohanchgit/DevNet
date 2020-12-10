@@ -1,1 +1,1000 @@
-welcome to OSD
+   41  cd ..
+   42  clear
+   43  cd xv6-riscv/
+   44  ls
+   45  cd ..
+   46  git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
+   47  ls
+   48  w
+   49  w |wc
+   50  ls
+   51  cd xv6sep1
+   52  ls
+   53  cd ..
+   54  ls
+   55  cd xv6ps
+   56  ls
+   57  cd xv6
+   58  clear
+   59  ls
+   60  nano nice.c
+   61  clear
+   62  make qemu-nox
+   63  ls
+   64  cd xv6-mass
+   65  make qemu-nox
+   66  cd ..
+   67  chmod 700 -R  xv6-mass
+   68  cd xv6-mass
+   69  make qemu-nox
+   70  clear
+   71  git clone https://github.com/mit-pdos/xv6-public.git xv6sep1
+   72  cd ..
+   73  git clone https://github.com/mit-pdos/xv6-public.git xv6sep1
+   74  ls
+   75  cd xv6sep1
+   76  make qemu-nox
+   77  clear
+   78  git clone https://github.com/mohanchgit/xv6new.git xv6s1
+   79  ls
+   80  cd ..
+   81  ls
+   82  clear
+   83  git clone https://github.com/mohanchgit/xv6new.git xv6ps
+   84  ls
+   85  cd xv6ps
+   86  ls
+   87  unzip xv6-new.zip 
+   88  ls
+   89  cd xv6
+   90  ls
+   91  make qemu-nox
+   92  clear
+   93  make qemu-nox
+   94  clear
+   95  make qemu-nox
+   96  clear
+   97  make qemu-nox
+   98  make clean
+   99  clear
+  100  make qemu-nox
+  101  clear
+  102  make qemu-nox
+  103  clear
+  104  make qemu-nox
+  105  clear
+  106  ls
+  107  cd ..
+  108  ls
+  109  clear
+  110  ls
+  111  cd xv6ps
+  112  ls
+  113  cd xv6
+  114  ls
+  115  nano vm.c
+  116  nano proc.c
+  117  cd ,,
+  118  cd ..
+  119  ls
+  120  clear
+  121  cat >f1.txt
+  122  cat f1.txt
+  123  cat -A f1.txt
+  124  cat -ns f1.txt
+  125  cat >> f1.txt
+  126  cat -ns f1.txt
+  127  sort > f1.txt
+  128  clear
+  129  nice
+  130  ps
+  131  top
+  132  clear
+  133  logout
+  134  ls
+  135  cd xv6ps/
+  136  ls
+  137  cd xv6
+  138  ls |wc
+  139  make clean
+  140  clear
+  141  ls |wc
+  142  git status
+  143  clear
+  144  ls
+  145  w
+  146  w |wc
+  147  clear
+  148  git clone https://projects.kluniversity.in/mohan_kumar_ch/19cs2106-osd.git xv6-klu
+  149  ls
+  150  top
+  151  man 2 top
+  152  man 3 top
+  153  mAN TOP
+  154  man top
+  155  man man
+  156  ls
+  157  cd xv6ps
+  158  ls
+  159  cd xv6
+  160  make qemu-nox
+  161  make qemu-nox
+  162  git clone 
+  163  git clone https://github.com/akshayDev17/xv6-assignment.git xv6sep2
+  164  ls
+  165  clear
+  166  ls
+  167  cd xv6sep2
+  168  ls
+  169  ls *.sh
+  170  nano generate.sh
+  171  generate.sh
+  172  sh generate.sh
+  173  ./generate.sh 1
+  174  ls
+  175  cd xv6psls
+  176  cd xv6ps
+  177  ls
+  178  cd xv6
+  179  ls
+  180  make qemu-nox
+  181  clear
+  182  cd ..
+  183  ls
+  184  cd xv6ps
+  185  ls
+  186  cd xv6
+  187  ls
+  188  cd ..
+  189  clear
+  190  git clone git clone git://github.com/mit-pdos/xv6-public.git xv6 xv6-psnew
+  191  clear
+  192  git clone git clone git://github.com/mit-pdos/xv6-public.git xv6-09
+  193  clear
+  194  git clone git://github.com/mit-pdos/xv6-public.git xv6-09
+  195  ls
+  196  cd xv6-09
+  197  ls
+  198  clear
+  199  make
+  200  make qemu-nox
+  201  nano proc.c
+  202  nano syscall.h
+  203  nano proc.h
+  204  nano defs.h
+  205  nano users.h
+  206  ls u*
+  207  clear
+  208  nano user.h
+  209  nano sysproc.c
+  210  nano usys.S
+  211  nano sysproc.c
+  212  nano syscall.c
+  213  nano ps.c
+  214  nano dpro.c
+  215  nano Makefile
+  216  make clean
+  217  make
+  218  nano proc.c
+  219  make
+  220  nano sysproc.c
+  221  nano proc.c
+  222  make clean
+  223  clear
+  224  make
+  225  make qemu-nox
+  226  nano dpro.c
+  227  make
+  228  clear
+  229  make clean
+  230  make
+  231  make qemu-nox
+  232  nano dpro.c
+  233  make clean
+  234  make qemu-nox
+  235  nano dpro.c
+  236  make clean
+  237  make qemu-nox
+  238  ls
+  239  git clone https://github.com/mohanchgit/xv6.git
+  240  ls
+  241  git clone https://github.com/mohanchgit/xv6.git sept4
+  242  git clone https://projects.kluniversity.in/mohan_kumar_ch/19cs2106-osd.git sep5
+  243  ping projects.kluniversity.in
+  244  ping kluniversity.in
+  245  ping google.com
+  246  ping eff.org
+  247  ping kluniversity.in
+  248  ping projects.kluniversity.in
+  249  ping newerp.kluniversity.in
+  250  ping projects.kluniversity.in
+  251  git clone https://projects.kluniversity.in/mohan_kumar_ch/osd-xv6.git sept5
+  252  git cone https://192.168.2.60/mohan_kumar_ch/osd-xv6.git sept5
+  253  git clone https://192.168.2.60/mohan_kumar_ch/osd-xv6.git sept5
+  254  git clone https://projects.kluniversity.in/mohan_kumar_ch/osd-xv6.git sept5
+  255  git clone https://projects.kluniversity.in/mohan_kumar_ch/osd-xv6.git sept6
+  256  cd sept6
+  257  ls
+  258  make 
+  259  cd ..
+  260  ls
+  261  chmod sep5
+  262  chmod 700 sep5
+  263  chmod 700 sept5
+  264  cd sept5
+  265  make
+  266  cd ..
+  267  exit
+  268  ls
+  269  ping 192.168.2.60
+  270  clear
+  271  ping google.com
+  272  ping 
+  273  ping 192.168.2.60
+  274  ping projects.kluniversity.in
+  275  ftp 192.168.2.52 920
+  276  ping projects.kluniversity.in
+  277  ls
+  278  cd xv6ps
+  279  make
+  280  make clean
+  281  make
+  282  make qemu-nox
+  283  cd ..
+  284  ls
+  285  logout
+  286  curl 0.0.0.0.:80
+  287  curl 127.0.0.1
+  288  curl 0.0.0.0:985
+  289  curl 0.0.0.0:80
+  290  curl 0.0.0.0:920
+  291  ls
+  292  cd xv6ps
+  293  make qemu-nox
+  294  cd ..
+  295  clear
+  296  ls
+  297  cd xv6-mass
+  298  ls
+  299  cd ..
+  300  cd xv6-09
+  301  ls
+  302  make qemu-nox
+  303  cd ..
+  304  clear
+  305  user
+  306  uname
+  307  ps
+  308  top
+  309  clear
+  310  w 
+  311  w | wc 
+  312  clear
+  313  w | wc 
+  314  who am i
+  315  user
+  316  uname
+  317  clear
+  318  ps -o pid,comm,nice
+  319  nice
+  320  clear
+  321  nice
+  322  cd ..
+  323  cd \
+  324  clear
+  325  uname
+  326  ls
+  327  cd xv6
+  328  make 
+  329  make qemu-nox
+  330  clear
+  331  cd ..
+  332  clear
+  333  clear
+  334  man awk
+  335  man 2 awk
+  336  man 3 awk
+  337  clear
+  338  man awk
+  339  cat /etc/password
+  340  ls
+  341  clear
+  342  w
+  343  clear
+  344  w > loginusers
+  345  cat loginusers
+  346  qclear
+  347  clear
+  348  awk '{print $1}' loginusers
+  349  who
+  350  clear
+  351  who > users
+  352  awk '{print $1}' users
+  353  awk '{print $2}' users
+  354  awk -F:'{print $1}' /etc/passwd
+  355  clear
+  356  echo "Hello ms" | awk '{$2='ms"; print $0}'
+  357  echo "Hello ms" | awk '{$2='mohan"; print $0}'
+  358  echo "Hello ms" | awk '{$2="mohan"; print $0}'
+  359  celar
+  360  clear
+  361  ls
+  362  cd xv6
+  363  ls
+  364  vi vm.c
+  365  clear
+  366  who > userlist
+  367  cat userlist
+  368  clear
+  369  awk '{print $1}' userlist
+  370  clear
+  371  awk -F: '{print $1}' userlist
+  372  awk -F: '{print $0}' userlist
+  373  clear
+  374  awk -F: '{print $1}' userlist
+  375  awk -F: '{print $2}' userlist
+  376  claer
+  377  clear
+  378  awk -F: '{print $1}' userlist
+  379  man awk
+  380  clear
+  381  vi userlist
+  382  cat userlist
+  383  awk -F: '{print $1}' userlist
+  384  clear
+  385  cat userlist
+  386  awk -F: '{print $1}' userlist
+  387  clear
+  388  awk -F: '{print $1}' userlist
+  389  claer
+  390  clear
+  391  echo "Hello Bob " | awk '{$2="Sri";print $0}'
+  392  clear
+  393  cat > script
+  394  awk -F: -f script userlist
+  395  cat  userlist
+  396  cat  script
+  397  vi script
+  398  awk -F: -f script userlist
+  399  vi script
+  400  awk -F: -f script userlist
+  401  cat  userlist
+  402  vi script
+  403  claer
+  404  clear
+  405  awk -F: -f script userlist
+  406  vi script
+  407  awk -F: -f script userlist
+  408  claer
+  409  clear
+  410  vi script
+  411  clear
+  412  nano script 
+  413  clear
+  414  cat > script-ip
+  415  awk -F: -f script-ip userlist
+  416  claer
+  417  clear
+  418  nano script-ip 
+  419  awk -F: -f script-ip userlist
+  420  nano script-ip 
+  421  awk -F: -f script-ip userlist
+  422  clear
+  423  nano script-ip 
+  424  clear
+  425  awk -F: -f script-ip userlist
+  426  awk -F: -f script-ip userlist | wc -l
+  427  awk -F: -f script-ip userlist | wc 
+  428  awk -F: -f script-ip userlist | wc '{print $1 $2 $3}'
+  429  awk -F: -f script-ip userlist | wc |'{print $1 $2 $3}'
+  430  clear
+  431  nano umalloc.c
+  432  claer
+  433  clear
+  434  top
+  435  clear
+  436  ps
+  437  top
+  438  ps
+  439  clear
+  440  top
+  441  clear
+  442  top
+  443  clear
+  444  top
+  445  clear
+  446  ps
+  447  ps -o pid,comm
+  448  ps -o pid,comm,nice
+  449  ps -o pid,comm,nice -p 14590
+  450  clear
+  451  ps -o pid,comm,nice -p 
+  452  clear
+  453  ps -o pid,comm,nice
+  454  nice 14590 10
+  455  man nice
+  456  clear
+  457  ps -o pid,comm,nice
+  458  nice -n -5 bash
+  459  clear
+  460  cd ..
+  461  nice -n 0 bash
+  462  git clone git://github.com/mit-pdos/xv6-public.git xv6.1
+  463  clear
+  464  cd xv6.1
+  465  ls
+  466  make
+  467  make qemu-nox
+  468  nano sh.c
+  469  make qemu-nox
+  470  nano sh.c
+  471  make qemu-nox
+  472  clear
+  473  nano syscall.h
+  474  nano proc.h
+  475  nano defs.h
+  476  nano user.h
+  477  nano proc.c
+  478  nano sysproc.c
+  479  nano usys.S
+  480  nano sysproc.c
+  481  nano syscall.c
+  482  nano ps.c
+  483  nano nice.c
+  484  nano proc.c
+  485  nano exec.c
+  486  nano dpro.c
+  487  nano Makefile
+  488  make
+  489  nano exec.c
+  490  clear
+  491  make clean
+  492  make
+  493  nano proc.c
+  494  claer
+  495  clear
+  496  make clean
+  497  make
+  498  nano defs.h
+  499  nano users.h
+  500  nano user.h
+  501  nano exec.c
+  502  make clean
+  503  clear
+  504  make
+  505  nano exec.c
+  506  make clean
+  507  make
+  508  nano proc.c
+  509  make clean
+  510  make
+  511  cd ..
+  512  ls
+  513  cd xv6ps
+  514  make qemu-nox
+  515  make clean
+  516  clear
+  517  ls
+  518  cd xv6
+  519  ls
+  520  make qemu-nox
+  521  nano exec.c
+  522  cd ..
+  523  ls
+  524  cd xv6.1
+  525  nano exec.c
+  526  nano proc.c
+  527  make clean
+  528  make
+  529  nano exec.c
+  530  claer
+  531  clear
+  532  cd ..
+  533  ls
+  534  cd xv6sep1
+  535  ls
+  536  make qemu-nox
+  537  cd ..
+  538  ls
+  539  cd xv6-sh
+  540  make qemu-nox
+  541  cd ..
+  542  rm -fr xv6-sh
+  543  clear
+  544  cd xv6.1
+  545  nano proc.h
+  546  make clean
+  547  make
+  548  vi proc.c
+  549  make clean
+  550  clear
+  551  make
+  552  vi sysproc.c
+  553  ls
+  554  who
+  555  ls
+  556  ls
+  557  ps
+  558  ls
+  559  mkdir lab8
+  560  ls
+  561  cd lab8
+  562  nano vm.c
+  563  nano pagetable.c
+  564  nano address.txt
+  565  nano BACKING_STORE.bin
+  566  cp a.out BACKING_STORE.bin 
+  567  cp ~/a.out BACKING_STORE.bin 
+  568  ls
+  569  clear
+  570  cc vm.c
+  571  clear
+  572  cc vm.c
+  573  clear
+  574  ls
+  575  cc pagetable.c
+  576  ls
+  577  ./a.out 
+  578  clear
+  579  ls
+  580  cc *.c
+  581  clear
+  582  cc vm.c
+  583  ./a.out
+  584  ls
+  585  cd lab8
+  586  nano vm.c
+  587  vi vm.c
+  588  nano vm.c
+  589  rm vm.c
+  590  nano vm.c
+  591  ls
+  592  nano vm.c
+  593  ls
+  594  javac
+  595  java
+  596  exit
+  597  git clone https://github.com/AdityaKshettri/Bash_Shell_using_Xv6.git
+  598  ls
+  599  mv Bash_Shell_using_Xv6 xv6.7
+  600  clear
+  601  ls
+  602  cd xv6.7
+  603  ls
+  604  clear
+  605  make
+  606  cd ..
+  607  cd xv6.1
+  608  make
+  609  ls ty*
+  610  clear
+  611  cd ..
+  612  cp ~/xv6/types.h ~/xv6.7/types.h
+  613  cd xv6.7
+  614  clear
+  615  make
+  616  cp ~/xv6/traps.h ~/xv6.7/traps.h
+  617  make
+  618  cp ~/xv6/x86.h ~/xv6.7/x86.h
+  619  clear
+  620  make
+  621  ls tra*
+  622  cd ..
+  623  cd xv6.1
+  624  ls tra*
+  625  cp ~/xv6/trapasm.S  ~/xv6.7/trapasm.S
+  626  cd ..
+  627  cd xv6.7
+  628  clear
+  629  make clean
+  630  clear
+  631  make
+  632  cd ..
+  633  cd xv6.1
+  634  ls sig*
+  635  nano sign.p1
+  636  nano sign.pl
+  637  ls boot*
+  638  cd ..
+  639  clear
+  640  cd xv6.7
+  641  clear
+  642  make
+  643  cd ..
+  644  cd xv6.1
+  645  ls uar*
+  646  cp ~/xv6/uart.c  ~/xv6.7/uart.c
+  647  cd ..
+  648  clear
+  649  cd xv6.7
+  650  make
+  651  cp ~/xv6.1/vectors.pl ~/xv6.7/vectors.pl
+  652  make
+  653  cp ~/xv6.1/vm.c ~/xv6.7/vm.c
+  654  make
+  655  cd ..
+  656  xv6.1
+  657  ls ul*
+  658  ls mk*
+  659  cd xv6.1
+  660  ls mk*
+  661  ls ul*
+  662  cp ~/xv6.1/ulib.c ~/xv6.7/ulib.c
+  663  cp ~/xv6.1/mkfs.c ~/xv6.7/mkfs.c
+  664  clear
+  665  make
+  666  cd ..
+  667  cd xv6.7
+  668  clear
+  669  make
+  670  cp ~/xv6.1/user.h ~/xv6.7/user.h
+  671  make
+  672  cp ~/xv6.1/ulib.c ~/xv6.7/ulib.c
+  673  make
+  674  cp ~/xv6.1/usys.S  ~/xv6.7/usys.S
+  675  clear
+  676  make
+  677  nano printf.c
+  678  nano user.h
+  679  clear
+  680  make clean
+  681  clear
+  682  make
+  683  ls
+  684  clear
+  685  mkdir AOS
+  686  cd AOS
+  687  ls
+  688  cat > aos2.txt
+  689  clear
+  690  ls
+  691  cat aos2.txt
+  692  nano aos2.txt
+  693  ls
+  694  cat aos2.txt
+  695  clear
+  696  cp aos2.txt aos3.txt
+  697  ls
+  698  cat aos2.txt aos3.txt
+  699  ls
+  700  ls -il aos2.txt 
+  701  ls -il 
+  702  clear
+  703  ls
+  704  cp aos2.txt a.txt
+  705  ls
+  706  cat a.txt
+  707  cat aos2.txt
+  708  man cp
+  709  who
+  710  who > pm1
+  711  who
+  712  w
+  713  who -l
+  714  clear
+  715  w
+  716  who
+  717  w
+  718  tee
+  719  w
+  720  who
+  721  clear
+  722  who
+  723  w
+  724  who
+  725  who | wc
+  726  who > s19b
+  727  cat s19b
+  728  w 
+  729  clear
+  730  who
+  731  man pthread
+  732  man thread
+  733  man 3 pthread
+  734  ls
+  735  w
+  736  clear
+  737  who
+  738  who |wc 
+  739  clear
+  740  who |wc 
+  741  ipcs
+  742  ipcs -q
+  743  ipcs -s
+  744  ipcs -a
+  745  ipcs -m -c
+  746  ipcs -m osd-190032075
+  747  ipcs -m -i
+  748  ls
+  749  ls lab1.txt
+  750  ls -l lab1.txt
+  751  ls
+  752  cd xv6
+  753  make qemu-nox
+  754  cd ..
+  755  ls
+  756  cd xv6A
+  757  make qemu-nox
+  758  ls
+  759  https://github.com/samyukthagopalsamy/Top_command_in_Xv6_OperatingSystem.git xv6top
+  760  git clone https://github.com/samyukthagopalsamy/Top_command_in_Xv6_OperatingSystem.git xv6top
+  761  ls
+  762  clear
+  763  ls
+  764  cd xv6top
+  765  ls
+  766  make qemu-nox
+  767  clear
+  768  sudo apt-get install build-essential
+  769  clear
+  770  git clone http://www.cs.bgu.ac.il/~os152/xv6.git xv6-top
+  771  ls
+  772  git clone http://www.cs.bgu.ac.il/~os152/xv6.git xv6-top
+  773  clear
+  774  ls
+  775  cd xv6-top/
+  776  ls
+  777  cd ..
+  778  git clone http://www.cs.bgu.ac.il/~os152/xv6.git xv6-top
+  779  cd ..
+  780  git clone http://www.cs.bgu.ac.il/~os152/xv6.git xv6-top
+  781  ls
+  782  clear
+  783  git clone http://www.cs.bgu.ac.il/~os152/xv6.git xv6-top
+  784  git clone http://www.cs.bgu.ac.il/~os152/xv6.git top
+  785  ls
+  786  cd top
+  787  ls
+  788  make 
+  789  make qemu-nox
+  790  clear
+  791  cd ..
+  792  git clone https://github.com/Nani0007/topps-command-implementation-in-xv6.git nov4
+  793  ls
+  794  cd nov4/
+  795  make qemu-nox
+  796  cd ..
+  797  clear
+  798  git clone https://github.com/HareeshwarKarthikeyan/Top-Command-in-Xv6-Operating-System.git nov2020
+  799  cd nov2020/
+  800  make qemu-nox
+  801  cd ..
+  802  git clone https://github.com/Nani0007/Implementation-of-Topps-command-in-xv6.git 2020
+  803  cd 2020
+  804  ls
+  805  cd xv6-orig/
+  806  ls
+  807  make qemu-nox
+  808  cd ..
+  809  clear
+  810  git clone https://github.com/crcx/xv6.git  eng
+  811  cd eng
+  812  make qemu-nox
+  813  ls
+  814  cd apps
+  815  ls
+  816  cd ..
+  817  cd xv6-kernel/
+  818  ls
+  819  make qemu-nox
+  820  make clean
+  821  make qemu-nox
+  822  make qemu
+  823  clear
+  824  cd ..
+  825  clear
+  826  git clone https://github.com/DoctorWkt/xv6-freebsd.git bsd
+  827  ls
+  828  cd bsd
+  829  ls
+  830  make qemu-nox
+  831  ls
+  832  cal
+  833  ls -l
+  834  git clone https://github.com/dwebe003/xv6-memory-management.git maxv6
+  835  cd maxv6/
+  836  ls
+  837  make qemu-nox
+  838  x
+  839  clear
+  840  exit
+  841  ls
+  842  ls -l adv\ lab\ 7-8/
+  843  cd ..
+  844  man exec
+  845  man 2 exec
+  846  man 2 exe
+  847  man 2 execv
+  848  strace wc
+  849  clear
+  850  ls
+  851  cd bsd
+  852  ls
+  853  cat Makefile
+  854  clear
+  855  cd ..
+  856  clear
+  857  git clone https://github.com/Nani0007/topps-command-implementation-in-xv6.git
+  858  ls
+  859  cd topps-command-implementation-in-xv6/
+  860  ls
+  861  make
+  862  cd ..
+  863  ls
+  864  clear
+  865  git clone https://github.com/TheRyanKing87/xv6-system-call.git 
+  866  cd xv6-system-call/
+  867  ls
+  868  nano Makefile
+  869  clear
+  870  nano Makefile
+  871  clear
+  872  make
+  873  chmod 755 *.*
+  874  clear
+  875  make
+  876  make qemu-nox
+  877  clear
+  878  cd ..
+  879  ls
+  880  git clone https://github.com/DoctorWkt/xv6-freebsd.git
+  881  ls
+  882  cd xv6-freebsd/
+  883  ls
+  884  make
+  885  make qemu-nox
+  886  cd ..
+  887  ls
+  888  clear
+  889  git hub https://github.com/morteza/xv6-sandbox.git
+  890  git close  https://github.com/morteza/xv6-sandbox.git
+  891  git clone  https://github.com/morteza/xv6-sandbox.git
+  892  git clone https://github.com/cristianomj/xv6.git nov5
+  893  ls
+  894  cd nov5
+  895  ls
+  896  make
+  897  make qemu-nox
+  898  cd ..
+  899  clear
+  900  ls
+  901  cd topps-command-implementation-in-xv6/
+  902  ls
+  903  ls -l m*
+  904  ls -l ma*
+  905  clear
+  906  ls
+  907  make Makefile
+  908  clear
+  909  make clean
+  910  make
+  911  cd ..
+  912  ls
+  913  cd xv6
+  914  make
+  915  make clean
+  916  make qemu-nox
+  917  cd ..
+  918  clear
+  919  make clean
+  920  cleaer
+  921  clerar
+  922  clear
+  923  git clone https://github.com/morteza/xv6-sandbox.git 
+  924  cd xv6-sandbox/
+  925  ls
+  926  make Makefile 
+  927  make 
+  928  vi proc.c
+  929  cd ..
+  930  clear
+  931  nano e1.c
+  932  cc e1.c
+  933  ls
+  934  git clone https://github.com/phanikmr/BankersAlgorithm.git
+  935  ls
+  936  cd BankersAlgorithm/
+  937  ls
+  938  cc BankersAlgo.c 
+  939  ./a.out
+  940  clear
+  941  ./a.out
+  942  clear
+  943  nano my.c
+  944  cc my.c
+  945  nano my.c
+  946  nano m1.c
+  947  cc m1.c
+  948  ./a.out
+  949  clear
+  950  ./a.out
+  951  nano my.c
+  952  cc m1.c
+  953  ./a.out
+  954  nano my.c
+  955  cc m1.c
+  956  ./a.out
+  957  clear
+  958  nano m1.c
+  959  nano db.java
+  960  javac db.java
+  961  mv db.java Bankers.java
+  962  javac Bankers.java 
+  963  java Bankers
+  964  ls
+  965  cd BankersAlgorithm/
+  966  ls
+  967  javac Bankers.java
+  968  java Bankers
+  969  ls
+  970  cd BankersAlgorithm/
+  971  ls
+  972  javac Bankers.java
+  973  java Bankers
+  974  ls
+  975  cd BankersAlgorithm/
+  976  ls
+  977  java Bankers
+  978  ls
+  979  exit
+  980  ls
+  981  mkdir nfs
+  982  cd nfs
+  983  nano fs.c
+  984  nano fc.c
+  985  nano ac.c
+  986  nano make.c
+  987  mv fs.c fileserver.c
+  988  mv fc.c fileclient.c
+  989  mv ac.c await_contact.c
+  990  mv make.c make_contact.c
+  991  cc *.c
+  992  nano ch.h
+  993  mv ch.h cnaiapi.h
+  994  clear
+  995  cc *.c
+  996  clear
+  997  ls
+  998  git init
+  999  git log
+ 1000  git config --global user.name "mohanchgit"
+ 1001  git config --global user.email "mail2mohan.ch@gmail.com"
+ 1002  git config --list
+ 1003  mkdir git-local
+ 1004  cd git-local
+ 1005  git init
+ 1006  git status
+ 1007  echo "welcome to OSD" >OSD
+ 1008  git status
+ 1009  ls -la
+ 1010  git add OSD
+ 1011  git status
+ 1012  git commit -m "First commit"
+ 1013  git status
+ 1014  git log
+ 1015  git config --list
+ 1016  git remote add origin https://github.com/mohanchgit/DevNet.git
+ 1017  git remote --verbose
+ 1018  git log
+ 1019  git status
+ 1020  git push origin master
+ 1021  git status
+ 1022  clear
+ 1023  git status
+ 1024  git pull https://github.com/mohanchgit/DevNet.git
+ 1025  clear
+ 1026  git config --list
+ 1027  git remote add origin https://github.com/mohanchgit/DevNet.git
+ 1028  git remote --verbose
+ 1029  git log
+ 1030  clear
+ 1031  git add OSD
+ 1032  git log
+ 1033  git push origin master
+ 1034  git pull https://github.com/mohanchgit/DevNet.git
+ 1035  git add OSD
+ 1036  git commit -m "hello"
+ 1037  git push origin master
+ 1038  ls
+ 1039  history
+ 1040  history > OSD
